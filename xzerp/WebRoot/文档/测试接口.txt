@@ -1,0 +1,2 @@
+http://localhost:8080/xzerp/jsonAction.do?method=exe&CMD=login&yhdm=admin&pwd=123456
+http://localhost:8080/xzerp/jsonAction.do?method=exe&CMD=uppwd&yhdm=admin&opwd=123456&npwd=1&npwd1=1

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="xzerp" default="xzerp.war" basedir=".">
+
+ <property name="app.dir" value="." />
+
+    <property name="web.dir" value="${app.dir}/WebRoot" />
+ 
+ <target name="xzerp.war" description="Build the web application archive">
+
+       <war warfile="xzerp.war" webxml="${web.dir}/WEB-INF/web.xml">
+           <fileset dir="${web.dir}" />
+       </war>
+
+    </target>
+
+</project>

@@ -1,0 +1,35 @@
+@media ( max-height :421px) {
+	#logoimgdiv {
+		margin: 10px auto;
+		width: 100px;
+		height: 75px;
+		overflow: hidden
+	}
+	#logoimg {
+		margin: 0px;
+		width: 100px;
+		height: 75px;
+	}
+	#btndiv {
+		text-align: center;
+		margin-top: 15px
+	}
+}
+
+@media ( min-height :421px) {
+	#logoimgdiv {
+		margin: 20px auto;
+		width: 150px;
+		height: 121px;
+		overflow: hidden
+	}
+	#logoimg {
+		margin: 0;
+		width: 150px;
+		height: 121px
+	}
+	#btndiv {
+		text-align: center;
+		margin-top: 30px
+	}
+}

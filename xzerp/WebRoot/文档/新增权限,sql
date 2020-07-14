@@ -1,0 +1,15 @@
+GRANT SELECT ON [dbo].[IM_KWXXP] TO [fljk200_byq_erp]
+go
+
+GRANT SELECT ON [dbo].[DM_KWJBP] TO [fljk200_byq_erp]
+go
+
+GRANT SELECT ON [dbo].[MP_WLCRJH_WEEKDOC] TO [fljk200_byq_erp]
+GO
+
+GRANT SELECT ON [dbo].[DM_JSYQSM] TO [fljk200_byq_erp]
+GO
+
+
+GRANT SELECT ON [dbo].[DM_BINARY_FILE] TO [fljk200_byq_erp]
+GO

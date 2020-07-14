@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312"?>
+<querys>
+
+	<dictionary id="1" table-name="Local" title="末级标记" code="Code"
+		name="Name" orderby="Code DESC " static="YES" default-select="M">
+		<value code="0">否</value>
+		<value code="1">是</value>
+	</dictionary>
+	
+
+	
+	
+	<!-- 动态数据字典 DC使用
+	<dictionary id="101" table-name="zr_wzm" title="物质码表" code="wzbm"
+		name="wzmc" orderby="" static="NO" default-value="">
+	</dictionary> -->
+	<dictionary id="101" table-name="PD101" title="PAD用户列表" code="c01"
+		name="c01" orderby="" static="NO" default-value="" >
+		<condition sql=" AND c03 = '2' " type="SESSION" />		
+	</dictionary>		
+</querys>

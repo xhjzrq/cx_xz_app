@@ -1,0 +1,17 @@
+<th data-options="field:'JHBH',width:100,align:'center',styler:cellStyler">计划编号</th>
+<th data-options="field:'HTZX',width:100,align:'center',styler:cellStyler">合同子项</th>
+<th data-options="field:'KHMC',width:100,align:'center'">客户名称</th>
+<th data-options="field:'SHDW',width:100,align:'center'">收货单位</th>
+<th data-options="field:'SCS',width:100,align:'center'">生产商</th>
+<th data-options="field:'YSDW',width:100,align:'center'">运输单位</th>
+<th data-options="field:'KSRQ',width:100,align:'center',styler:cellStyler">开始日期</th>
+<th data-options="field:'JSRQ',width:100,align:'center',styler:cellStyler">结束日期</th>
+<th data-options="field:'ZYLX',width:100,align:'center'">作业类型</th>
+<th data-options="field:'SL',width:100,align:'right',halign:'center',styler:cellStyler">数量</th>
+<th data-options="field:'ZL',width:100,align:'right',halign:'center',styler:cellStyler">重量</th>
+<th data-options="field:'JHCX',width:100,align:'center'">计划查询</th>
+<th data-options="field:'ZYD',width:100,align:'center'">作业单</th>
+<th data-options="field:'JHZT',width:100,align:'center'">计划状态</th>
+<th data-options="field:'DJBZ',width:100,align:'center',styler:cellStyler">单据备注</th>
+<th data-options="field:'BZRY',width:100,align:'center',styler:cellStyler">编制人员</th>
+<th data-options="field:'BZRQ',width:150,align:'center',styler:cellStyler">编制日期</th>

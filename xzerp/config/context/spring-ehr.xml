@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>	
+	<!-- 
+	<bean id="IMPL_TEST" class="com.fenglian.biz.TestCommand" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="doLogin" class="com.fenglian.biz.LoginCommand" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="M1" class="com.fenglian.biz.M1Commad" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="M2" class="com.fenglian.biz.M2Commad" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>	
+	<bean id="M3" class="com.fenglian.biz.M3Command" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="M4" class="com.fenglian.biz.M4Command" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="M5" class="com.fenglian.biz.M5Command" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="M6" class="com.fenglian.biz.M6Command" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>	
+	<bean id="M7" class="com.fenglian.biz.M7Command" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="M8" class="com.fenglian.biz.M8Command" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="M9" class="com.fenglian.biz.M9Command" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	 -->
+	
+	<bean id="login" class="com.fenglian.biz.I_Login" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="uppwd" class="com.fenglian.biz.I_Uppwd" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="yhfun" class="com.fenglian.biz.I_Yhfun" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="addgroup" class="com.fenglian.biz.I_AddGroup" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="addlist" class="com.fenglian.biz.I_AddList" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="jj01_qdj" class="com.fenglian.biz.I_JJ01_Qdj" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="jj01_qtp" class="com.fenglian.biz.I_JJ01_Qtp" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="upjj01" class="com.fenglian.biz.I_UpJJ01" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="jj02_qdj" class="com.fenglian.biz.I_JJ02_Qdj" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="jj03_qdj" class="com.fenglian.biz.I_JJ03_Qdj" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="upjj03" class="com.fenglian.biz.I_UpJJ03" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="jj05_qdj" class="com.fenglian.biz.I_JJ05_Qdj" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="jj06_qdj" class="com.fenglian.biz.I_JJ06_Qdj" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="jj07_qdj" class="com.fenglian.biz.I_JJ07_Qdj" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="adjj05" class="com.fenglian.biz.I_AdJJ05" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="edjj05" class="com.fenglian.biz.I_EdJJ05" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="dljj05" class="com.fenglian.biz.I_DlJJ05" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="upjj05" class="com.fenglian.biz.I_UpJJ05" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="upjj06" class="com.fenglian.biz.I_UpJJ06" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="nb01_qry" class="com.fenglian.biz.I_NB01_Qry" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="nb01_qcz" class="com.fenglian.biz.I_NB01_Qcz" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="nb02_qsbxx" class="com.fenglian.biz.I_NB02_Qsbxx" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="nb02_qsbmx" class="com.fenglian.biz.I_NB02_Qsbmx" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="nb03_qsbwx" class="com.fenglian.biz.I_NB03_Qsbwx" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+	<bean id="nb03_usbwx" class="com.fenglian.biz.I_NB03_Usbwx" singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" ></property>
+	</bean>
+</beans>

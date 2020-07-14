@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="xzerp"
+  id="myeclipse.1426566511015"
+  context-root="/xzerp"
+  j2ee-spec="5.0"
+  archive="xzerp.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+

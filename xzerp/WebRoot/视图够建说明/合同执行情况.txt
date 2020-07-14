@@ -1,0 +1,15 @@
+<th data-options="field:'XH',width:40,align:'center'">序号</th>
+<th data-options="field:'HTBH',width:80,align:'center'">合同编号</th>
+<th data-options="field:'HTZX',width:80,align:'center'">合同子项</th>
+<th data-options="field:'KHMC',width:80,align:'center'">客户名称</th>
+<th data-options="field:'WLLB',width:80,align:'center'">物量类别</th>
+<th data-options="field:'WL',width:80,align:'right',halign:'center'">物量</th>
+<th data-options="field:'DW',width:80,align:'center'">单位</th>
+<th data-options="field:'JHKGRQ',width:80,align:'center'">计划开工日期</th>
+<th data-options="field:'JHWGRQ',width:80,align:'center'">计划完工日期</th>
+<th data-options="field:'JHGQ',width:80,align:'center'">计划工期/天</th>
+<th data-options="field:'RKL',width:80,align:'right',halign:'center'">入库量</th>
+<th data-options="field:'YCLL',width:80,align:'right',halign:'center'">预处理量</th>
+<th data-options="field:'QGL',width:80,align:'right',halign:'center'">切割量</th>
+<th data-options="field:'FCL',width:80,align:'right',halign:'center'">发出量</th>
+<th data-options="field:'KC',width:80,align:'right',halign:'center'">库存</th>

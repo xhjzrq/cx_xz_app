@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="com.ibm.db2.jcc.DB2Driver"/>
+         <!-- <property name="url" value="jdbc:db2://192.168.1.60:50000/xxhyaix"/>
+        <property name="username" value="xxhy"/>
+        <property name="password" value="xxhy"/> -->
+        
+       <property name="url" value="jdbc:db2://192.168.1.30:50000/xxhy"/>
+        <property name="username" value="xxhy"/>
+        <property name="password" value="fenglian"/>
+        
+        <property name="maxActive" value="100"/>
+        <property name="maxIdle" value="30"/>
+        <property name="maxWait" value="10"/>
+        <property name="defaultAutoCommit" value="true"/>
+        <property name="removeAbandoned" value="true"/>
+        <property name="removeAbandonedTimeout" value="60"/>
+	</bean>	
+	<bean id="dataSourcePad" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://192.168.1.70/xxhypaddb"/>
+        <property name="username" value="xxhypad"/>
+        <property name="password" value="xxhypad"/>
+        <property name="maxActive" value="50"/>
+        <property name="maxIdle" value="30"/>
+        <property name="maxWait" value="10"/>
+        <property name="defaultAutoCommit" value="true"/>
+        <property name="removeAbandoned" value="true"/>
+        <property name="removeAbandonedTimeout" value="60"/>
+	</bean> 
+	
+	<bean id="applicationContextUtil" class="com.fenglian.tools.extent.ApplicationContextUtil">
+    </bean>
+ 
+    <bean id="jdbcTemplatePage" class="com.fenglian.tools.extent.JdbcTemplatePage">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+        
+    <bean id="jdbcTemplatePagePad" class="com.fenglian.tools.extent.JdbcTemplatePage">
+        <property name="dataSource" ref="dataSourcePad"/>
+    </bean>       
+    
+    <bean id="TABLE_INFO"
+		class="com.fenglian.pad.command.IMPL_TestCommand"  singleton="false">
+		<property name="jt" ref="jdbcTemplatePage" />
+	</bean>
+</beans>

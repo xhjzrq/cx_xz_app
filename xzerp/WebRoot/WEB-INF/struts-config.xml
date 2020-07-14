@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<struts-config>
+	<form-beans>
+		<form-bean name="fileActionForm"
+			type="com.fenglian.action.FileActionForm" />		
+	</form-beans>
+	<data-sources />
+
+	<global-exceptions />
+	<global-forwards />
+	<action-mappings>		
+		<action parameter="method" path="/jsonAction" name="DwUser"
+			scope="request" attribute="Info"
+			type="com.fenglian.action.JsonAction">			
+		</action>
+		<action parameter="method" path="/zipAction" name="DwUser"
+			scope="request" attribute="Info"
+			type="com.fenglian.action.ZipAction">			
+		</action>
+		<action parameter="method" path="/formAction" name="fileActionForm"
+			scope="request" attribute="Info"
+			type="com.fenglian.action.FormAction">			
+		</action>
+		<action parameter="method" path="/fileAction" name="fileActionForm"
+			scope="request" attribute="Info"
+			type="com.fenglian.action.FileUpLoadAction">			
+		</action>
+		<action parameter="method" path="/downAction" name="fileActionForm"
+			scope="request" attribute="Info"
+			type="com.fenglian.action.DownLoadAction">			
+		</action>
+	</action-mappings>
+</struts-config>

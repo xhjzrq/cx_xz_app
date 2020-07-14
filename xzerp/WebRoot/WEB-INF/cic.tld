@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE taglib
+
+  PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+
+  "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+
+
+
+<taglib>
+
+
+
+	<tlibversion>1.0</tlibversion>
+
+	<jspversion>1.1</jspversion>
+
+	<shortname>auth</shortname>
+
+	<info>
+
+		This tag library contains functionality specific to the Struts
+
+		Example Application.
+
+	</info>
+
+
+	<tag>
+		<name>errors</name>
+		<tagclass>com.fenglian.tools.tiger.ErrorsTag</tagclass>
+		<bodycontent>empty</bodycontent>
+		<attribute>
+			<name>bundle</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>locale</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>property</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>message</name>
+		<tagclass>com.fenglian.tools.tiger.MessageTag</tagclass>
+		<bodycontent>empty</bodycontent>
+		<attribute>
+			<name>bundle</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>locale</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>property</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>klsm</name>
+		<tagclass>com.fenglian.tools.tag.CheckDeaultTag</tagclass>
+		<attribute>
+			<name>currentCode</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>hiddenCodes</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>currentIndex</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>defultValue</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>type</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>cclass</name>
+			<required>false</required>
+		</attribute>
+		<attribute>
+			<name>style</name>
+			<required>false</required>
+		</attribute>
+		
+		<attribute>
+			<name>method</name>
+			<required>false</required>
+		</attribute>
+	</tag>
+	
+</taglib>
+

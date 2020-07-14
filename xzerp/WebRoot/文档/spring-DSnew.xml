@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>					 
+	 <bean id="dataSourceEhr" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+        <property name="url" value="jdbc:sqlserver://192.168.1.96:1433;DatabaseName=byq_erp"/>
+        <property name="username" value="sa"/>
+        <property name="password" value="qiuyujia"/>
+        <property name="maxActive" value="5"/>
+        <property name="maxIdle" value="3"/>
+        <property name="maxWait" value="10"/>
+        <property name="defaultAutoCommit" value="true"/>
+        <property name="removeAbandoned" value="true"/>
+        <property name="removeAbandonedTimeout" value="60"/>
+	</bean>
+	
+	<bean id="applicationContextUtil" class="com.fenglian.tools.extent.ApplicationContextUtil">
+    </bean>
+    <bean id="jdbcTemplatePage" class="com.fenglian.tools.extent.JdbcTemplatePage">
+        <property name="dataSource" ref="dataSourceEhr"/>
+    </bean>  
+  
+</beans>
